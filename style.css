@@ -11,8 +11,7 @@
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-}
-
+}   
 
 /* Base structure */
 body p {
@@ -63,4 +62,20 @@ body p {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background: black;
+  opacity: 90%;
+  transition: all 0.5s;
+}
+
+.object-fit {
+  contain: contain;
+  fill: fill;
+  scale: scale-down;
+}
+
+span{
+  animation: blinker 1s linear infinite;
 }
